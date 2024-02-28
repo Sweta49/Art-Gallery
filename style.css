@@ -1,0 +1,112 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+
+header {
+  background-color: #f2f2f2; 
+  padding: 10px 20px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px; 
+}
+
+.logo h1 {
+  margin-left: 10px; 
+  font-size: 1.5rem; 
+}
+
+nav ul {
+  list-style-type: none; 
+  display: flex;
+}
+
+nav li {
+  margin-right: 15px; 
+}
+
+nav a {
+  text-decoration: none; 
+  color: #333; 
+  transition: color 0.3s ease; 
+}
+
+nav a:hover {
+  color: #007bff; 
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px 5px 0 0;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.overlay p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+form {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+

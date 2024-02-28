@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+   <div class="logo">
+      <img src="Images\logo.jpg" alt="Art Gallery Logo">
+      <h1>Art Gallery</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="Images\Bird.jpg" alt="Artwork 1">
+      <div class="overlay">
+        <h3>Bird</h3>
+        <p>Description of Artwork 1</p>
+        <form action="purchase.php" method="POST">
+          <input type="hidden" name="artwork" value="Artwork Title 1">
+          <input type="submit" value="Buy Now">
+        </form>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="Images\paints.jpg" alt="Artwork 2">
+      <div class="overlay">
+        <h3>paints</h3>
+        <p>Description of Artwork 2</p>
+        <form action="purchase.php" method="POST">
+          <input type="hidden" name="artwork" value="Artwork Title 2">
+          <input type="submit" value="Buy Now">
+        </form>
+      </div>
+     </div>
+     <div class="gallery-item">
+      <img src="Images\picture.jpg" alt="Artwork 3">
+      <div class="overlay">
+        <h3>picture</h3>
+        <p>Description of Artwork 3</p>
+        <form action="purchase.php" method="POST">
+          <input type="hidden" name="artwork" value="Artwork Title 3">
+          <input type="submit" value="Buy Now">
+        </form>
+      </div>
+     </div>
+     <div class="gallery-item">
+      <img src="Images\Sunset.jpg" alt="Artwork 4">
+      <div class="overlay">
+        <h3>sunset</h3>
+        <p>Description of Artwork 4</p>
+        <form action="purchase.php" method="POST">
+          <input type="hidden" name="artwork" value="Artwork Title 4">
+          <input type="submit" value="Buy Now">
+        </form>
+      </div>
+     </div>
+     <div class="gallery-item">
+      <img src="Images\tree.jpg" alt="Artwork 5">
+      <div class="overlay">
+        <h3>tree</h3>
+        <p>Description of Artwork </p>
+        <form action="purchase.php" method="POST">
+          <input type="hidden" name="artwork" value="Artwork Title 5">
+          <input type="submit" value="Buy Now">
+        </form>
+      </div>
+     </div>
+ 
+  </div>
+</body>
+</html>
